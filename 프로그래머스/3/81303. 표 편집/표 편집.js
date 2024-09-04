@@ -1,42 +1,61 @@
+class Node {
+    constructor(value, prev, next) {
+        this.value = value;
+        this.prev = prev;
+        this.next = next;
+    }
+};
+
 function solution(n, k, cmd) {
-  const deleted = [];
+    const table = Array.from({length:n}, () => true);
+    const nodes = Array.from({length:n}, () => new Node());
+    const removed = [];
+    let cur = nodes[k];
 
-  const up = [...new Array(n + 2)].map((_, i) => i - 1);
-  const down = [...new Array(n + 1)].map((_, i) => i + 1);
-
-  k += 1;
-
-  for (const item of cmd) {
-    if (item.startsWith("C")) {
-      deleted.push(k);
-      up[down[k]] = up[k];
-      down[up[k]] = down[k];
-      k = n < down[k] ? up[k] : down[k];
+    for(let i = 0; i < n; i++) {
+        nodes[i].value = i;
+        nodes[i].prev = nodes[i - 1];
+        nodes[i].next = nodes[i + 1];
     }
 
-    else if (item.startsWith("Z")) {
-      const restore = deleted.pop();
-      down[up[restore]] = restore;
-      up[down[restore]] = restore;
-    }
-
-    else {
-      const [action, num] = item.split(" ");
-      if (action === "U") {
-        for (let i = 0; i < num; i++) {
-          k = up[k];
+    cmd.forEach(command => {
+        command = command.split(" ");
+        switch(command[0]) {
+            case "U":
+                for(let i = 0; i < command[1]; i++) {
+                    cur = cur.prev;
+                }
+                break;
+            case "D":
+                for(let i = 0; i < command[1]; i++) {
+                    cur = cur.next;
+                }
+                break;
+            case "C":
+                table[cur.value] = false;
+                removed.push(cur);
+                if(cur.next === undefined) {
+                    cur = cur.prev;
+                    cur.next = undefined;
+                } else if(cur.prev === undefined) {
+                    cur.next.prev = undefined;
+                    cur = cur.next;
+                } else {
+                    cur.prev.next = cur.next;
+                    cur.next.prev = cur.prev;
+                    cur = cur.next;
+                }
+                break;
+            case "Z":
+                const restored = removed.pop();
+                table[restored.value] = true;
+                if(restored.prev !== undefined)
+                    restored.prev.next = restored;
+                if(restored.next !== undefined)
+                    restored.next.prev = restored;
+                break;
         }
-      } else {
-        for (let i = 0; i < num; i++) {
-          k = down[k];
-        }
-      }
-    }
-  }
+    })
 
-  const answer = new Array(n).fill("O");
-  for (const i of deleted) {
-    answer[i - 1] = "X";
-  }
-  return answer.join("");
+    return table.map(row => row ? "O" : "X").join("");
 }
