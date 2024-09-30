@@ -1,25 +1,13 @@
 function solution(n, words) {
-    const set = Array.from({ length: n }, (_, i) => []);
-    let answer = [0, 0]; 
+    const usedWords = new Set();
+    let prevWord = words[0][0];
     for(let i = 0; i < words.length; i++) {
-        let isOut = false;
-        const num = i % n;
-        if(i > 0) {
-            const last = words[i - 1].slice(-1);
-            const start = words[i].slice(0, 1);
-            if(start !== last) {
-                answer = [num + 1, set[num].length + 1];
-                isOut = true;
-            }
+        const word = words[i];
+        if(usedWords.has(word) || word[0] != prevWord) {
+            return [i % n + 1, Math.floor(i / n) + 1];
         }
-        set.forEach((arr, j) => {
-            if(arr.includes(words[i])) {
-                answer = [num + 1, set[num].length + 1];
-                isOut = true;
-            }
-        })
-        if(isOut) break;
-        set[num].push(words[i]);
+        usedWords.add(word);
+        prevWord = word.slice(-1);
     }
-    return answer;
+    return [0, 0];
 }
