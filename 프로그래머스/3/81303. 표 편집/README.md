@@ -1,10 +1,10 @@
 # [level 3] 표 편집 - 81303 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81303) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81303?language=python3) 
 
 ### 성능 요약
 
-메모리: 36.9 MB, 시간: 543.00 ms
+메모리: 104 MB, 시간: 221.14 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 04일 15:14:59
+2025년 03월 05일 17:12:34
 
 ### 문제 설명
 
