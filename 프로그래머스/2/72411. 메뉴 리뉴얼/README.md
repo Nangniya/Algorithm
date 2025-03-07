@@ -1,10 +1,10 @@
 # [level 2] 메뉴 리뉴얼 - 72411 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/72411) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/72411?language=python3) 
 
 ### 성능 요약
 
-메모리: 45.8 MB, 시간: 23.48 ms
+메모리: 10.3 MB, 시간: 6.27 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 22일 16:29:50
+2025년 03월 07일 18:47:04
 
 ### 문제 설명
 
