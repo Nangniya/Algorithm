@@ -1,10 +1,10 @@
 # [level 3] 외벽 점검 - 60062 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/60062) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/60062?language=python3) 
 
 ### 성능 요약
 
-메모리: 81.9 MB, 시간: 858.69 ms
+메모리: 9.21 MB, 시간: 1806.74 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 06일 21:16:33
+2025년 03월 17일 18:51:53
 
 ### 문제 설명
 
