@@ -32,7 +32,7 @@ def solution(board, aloc, bloc):
             return False, step
         
         if is_opponent_winner:
-            return False, max(win_steps)
+            return False, max(win_steps + lose_steps)
         
         return True, min(lose_steps)
         
