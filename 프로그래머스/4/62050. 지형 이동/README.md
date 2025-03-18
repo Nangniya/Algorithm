@@ -1,10 +1,10 @@
 # [level 4] 지형 이동 - 62050 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/62050) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/62050?language=python3) 
 
 ### 성능 요약
 
-메모리: 69 MB, 시간: 397.80 ms
+메모리: 27.9 MB, 시간: 968.32 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 07일 21:17:25
+2025년 03월 18일 15:03:47
 
 ### 문제 설명
 
