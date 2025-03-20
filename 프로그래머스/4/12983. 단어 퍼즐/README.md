@@ -1,10 +1,10 @@
 # [level 4] 단어 퍼즐 - 12983 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12983) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12983?language=python3) 
 
 ### 성능 요약
 
-메모리: 37.8 MB, 시간: 50.53 ms
+메모리: 9.93 MB, 시간: 104.91 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 10일 16:24:21
+2025년 03월 20일 21:21:06
 
 ### 문제 설명
 
