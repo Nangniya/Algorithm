@@ -1,10 +1,10 @@
 # [level 2] 땅따먹기 - 12913 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12913) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12913?language=python3) 
 
 ### 성능 요약
 
-메모리: 91 MB, 시간: 69.99 ms
+메모리: 31.5 MB, 시간: 211.12 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 09일 16:27:27
+2025년 03월 20일 16:06:28
 
 ### 문제 설명
 
