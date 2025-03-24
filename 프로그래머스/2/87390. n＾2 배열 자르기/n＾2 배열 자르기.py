@@ -1,5 +1,3 @@
-from itertools import chain
-
 def solution(n, left, right):
     result = []
     for idx in range(left, right + 1):
