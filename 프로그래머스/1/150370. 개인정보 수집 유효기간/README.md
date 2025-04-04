@@ -1,10 +1,10 @@
 # [level 1] 개인정보 수집 유효기간 - 150370 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150370) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/150370?language=python3#) 
 
 ### 성능 요약
 
-메모리: 33.9 MB, 시간: 5.09 ms
+메모리: 9.98 MB, 시간: 2.50 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 22일 18:05:25
+2025년 04월 05일 01:36:27
 
 ### 문제 설명
 
