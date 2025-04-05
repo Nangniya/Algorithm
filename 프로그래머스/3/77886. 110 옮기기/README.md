@@ -1,10 +1,10 @@
 # [level 3] 110 옮기기 - 77886 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77886) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77886?language=python3) 
 
 ### 성능 요약
 
-메모리: 66.1 MB, 시간: 177.32 ms
+메모리: 14.8 MB, 시간: 536.23 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 02월 24일 13:48:20
+2025년 04월 05일 23:23:31
 
 ### 문제 설명
 
