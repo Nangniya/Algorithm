@@ -1,10 +1,10 @@
 # [level 5] 시험장 나누기 - 81305 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81305?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81305?language=javascript) 
 
 ### 성능 요약
 
-메모리: 21.6 MB, 시간: 255.92 ms
+메모리: 42.6 MB, 시간: 32.94 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 02월 14일 17:34:06
+2026년 02월 14일 18:55:17
 
 ### 문제 설명
 
